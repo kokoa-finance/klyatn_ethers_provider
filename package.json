@@ -68,5 +68,5 @@
   "sideEffects": false,
   "tarballHash": "0x6e19b4da489cbf02e698d8ce8e42564d81b1547e41ddcad5cfcded518c19ca9c",
   "types": "./lib/index.d.ts",
-  "version": "git://github.com/kokoa-finance/klyatn_ethers_provider.git"
+  "version": "5.1.0"
 }
