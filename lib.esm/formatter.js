@@ -89,9 +89,9 @@ export class Formatter {
             timestamp: number,
             nonce: Formatter.allowNull(hex),
             difficulty: this.difficulty.bind(this),
-            gasLimit: bigNumber,
+            gasLimit: Formatter.allowNull(bigNumber, null),
             gasUsed: bigNumber,
-            miner: address,
+            miner: Formatter.allowNull(address, null),
             extraData: data,
             transactions: Formatter.allowNull(Formatter.arrayOf(hash)),
         };
